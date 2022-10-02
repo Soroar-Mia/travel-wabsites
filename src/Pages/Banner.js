@@ -15,7 +15,6 @@ const Banner = () => {
             <div className='nav-content flex-col lg:flex-row'>
             <div className='sm:w-5/12 relateb' >
                 <img className='pt-6 pl-20' src={img} alt=''/>
-
                 <div class="card card-compact w-80 bg-base-100 shadow-xl absulet">
                     <div class="card-body flex-row">
                         <div className='w-7/12'>
@@ -29,8 +28,7 @@ const Banner = () => {
                             <div className='flexd py-2'>
                             <h3>Plan Now </h3>
                             <img className='px-2' src={Arrow} alt=''/>
-                            </div>
-                          
+                            </div>   
                         </div>
                         <div className='w-5/12'>
                         <img className='' src={Rectangle} alt=''/>
@@ -42,17 +40,15 @@ const Banner = () => {
                     <div className='pt-20'>
                     <h1 className="text-5xl font-bold  font-sans">Travel With The Best Travel<br /> Agents And Get Best <br />Experience </h1>
                     <p className='py-6 font-bold'>Get best experience and memories of your adventures with <br /> best international and local treavel agents listed with us</p>
-                    <a href="" class="btn bg-green-500 rounded-full font-bold text-white mx-2 my-8"><span className='mx-2'>Plan A Trip </span> <img src={icon} alt='' /></a>
+                    <a href="" className="btn bg-green-500 rounded-full font-bold text-white mx-2 my-8"><span className='mx-2'>Plan A Trip </span> <img src={icon} alt='' /></a>
                     </div>
                     <div className='my-5 flex pt-6'>
-                    <a href="" class="mx-5 "><img src={Ellipse2} className="w-24 rounded-full " alt=''/><p className='text-center'>Bali</p></a>
-                    <a href="" class="mx-5 "><img src={Ellipse3} className="w-24 rounded-full " alt=''/><p className='text-center'>Rome</p></a>
-                    <a href="" class="mx-5 "><img src={Ellipse4} className="w-24 rounded-full " alt=''/><p className='text-center'>Pune</p></a>
-                    <a href="" class=" mx-5"><img src={Ellipse5} className="w-24 rounded-full " alt=''/><p className='text-center'>Tonam</p></a>
-                    
+                    <a href="" className="mx-5 "><img src={Ellipse2} className="w-24 rounded-full " alt=''/><p className='text-center'>Bali</p></a>
+                    <a href="" className="mx-5 "><img src={Ellipse3} className="w-24 rounded-full " alt=''/><p className='text-center'>Rome</p></a>
+                    <a href="" className="mx-5 "><img src={Ellipse4} className="w-24 rounded-full " alt=''/><p className='text-center'>Pune</p></a>
+                    <a href="" className=" mx-5"><img src={Ellipse5} className="w-24 rounded-full " alt=''/><p className='text-center'>Tonam</p></a>
                     </div>
                 </div>
-
             </div>
         </div>
     );
